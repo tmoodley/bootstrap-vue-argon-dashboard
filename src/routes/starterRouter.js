@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import DashboardLayout from '../views/Starter/SampleLayout.vue';
+import forum from '@/components/forum/main.vue';
 import Starter from '../views/Starter/SamplePage.vue';
 
 Vue.use(Router);
@@ -10,8 +10,8 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      redirect: '/dashboard',
-      component: DashboardLayout,
+      redirect: '/forum',
+      component: forum,
       children: [
         {
           path: 'dashboard',

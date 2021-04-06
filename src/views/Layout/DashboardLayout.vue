@@ -5,8 +5,8 @@
       <template slot="links">
         <sidebar-item
           :link="{
-            name: 'Dashboard',
-            path: '/dashboard',
+            name: 'Forum',
+            path: '/forum',
             icon: 'ni ni-tv-2 text-primary',
           }"
         >
